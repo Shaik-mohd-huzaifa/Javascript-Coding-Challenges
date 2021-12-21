@@ -1,6 +1,7 @@
 # Javascript-Coding-Challenges
 Here you can test your javascript Knowledge by Taking these Challenges Listed
 
+_you can find the answer Code in the Above Mentioned file ever challenge has its own Answer file with the challenge number_
 > ## 1st Coding Challenge
  #### About the Basic Arithematic Operator and If Else Statemen
 Here mark and John are tyring to compare their BMI (Body Mass Index) 
