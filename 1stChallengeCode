@@ -1,0 +1,58 @@
+// Marks Details
+let MarksHeight = 1.68;
+let MarksWeight = 78;
+// Comparing Both Values and making a boolean values displaying it in console below 
+let MarksBMI = MarksWeight / (MarksHeight ** 2 );
+
+// John Details
+let JohnsHeight = 1.95;
+let JohnsWeight = 95;
+// Comparing Both Values and making a boolean values 
+let JohnsBMI = JohnsWeight / (JohnsHeight ** 2) ;
+console.log(MarksBMI)
+// Comparing both BMI's and putting it in Variable to make a boolean value
+let MarksHigherBMI = MarksBMI >= JohnsBMI;  // We can either use the boolean values by creating varibles an 
+//The Boolen value is displayed in console below whether true or false
+console.log(MarksHigherBMI);
+let JohnsHigherBMI = JohnsBMI >= MarksBMI; //  comparing in it or by using direct comparsion in the if else statement as condition
+//The Boolen value is displayed in console below whether true or false
+console.log(JohnsHigherBMI);
+// Here first we are storing the true or false values in the variables and then running if eles
+/* If first MarksHigherBMi is true ("True" when mark's BMi is greater than Johns "False" when Johns Is higher)
+ then First Statement Will get Displayed .If Johns BMI is Greater then 2nd statement Will be displayed */
+if(MarksHigherBMI){
+   console.log(`Mark has Higher BMI
+   Marks BMi ${MarksBMI} 
+   Johns BMI ${JohnsBMI}`);  // Here we have used templete literals
+}else if(JohnsHigherBMI){
+    console.log("John's BMI is Higher \n" + "Marks BMI = " + MarksBMI + "\n" + "Johns BMI = " + JohnsBMI);
+}    // Here we have used normal method
+
+// Data 2 Values 
+// We can change the existing variables value but naming it without prefixing let or var 
+// Note : Contstant keywords "const" values cannot be Changed
+
+MarksHeight = 1.88; // Here We are using Data 2 Values
+MarksWeight = 95;  // Remove the comments and try out this one
+MarksBMI = MarksWeight / (MarksHeight ** 2 );
+
+
+JohnsHeight = 1.76;  // Here We are Using Data 2 values
+JohnsWeight = 85; // Remove the comments and try out this one
+JohnsBMI = JohnsWeight / (JohnsHeight ** 2 );
+
+// Comparing both BMI's and putting it in Variable to make a boolean value
+MarksHigherBMI = MarksBMI >= JohnsBMI;  // We can either use the boolean values by creating varibles an 
+//The Boolen value is displayed in console below whether true or false
+console.log(MarksHigherBMI);
+JohnsHigherBMI = JohnsBMI >= MarksBMI; //  comparing in it or by using direct comparsion in the if else statement as condition
+//The Boolen value is displayed in console below whether true or false
+console.log(JohnsHigherBMI);
+// In this below if else we are comparing the values here but not as variable
+if(MarksBMI >= JohnsBMI){
+    console.log(`Mark has Higher BMI
+    Marks BMi ${MarksBMI}
+    Johns BMI ${JohnsBMI}`);
+ }else if(JohnsBMI >= MarksBMI){
+     console.log("John's BMI is Higher \n" + "Marks BMI = " + MarksBMI + "\n" + "Johns BMI = " + JohnsBMI);
+ }
