@@ -3,7 +3,7 @@ Here you can test your javascript Knowledge by Taking these Challenges Listed
 
 _you can find the answer Code in the Above Mentioned file ever challenge has its own Answer file with the challenge number_
 > ## 1st Coding Challenge
- #### About the Basic Arithematic Operator and If Else Statemen
+ #### About the Basic Arithematic Operator and If Else Statement
 Here mark and John are tyring to compare their BMI (Body Mass Index) 
 Mark and John are trying to compare their BMI (Body Mass Index), which is 
 calculated using the formula:
@@ -20,4 +20,16 @@ Test data:
 m tall.
 § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 
 m tall.
+GOOD LUCK � 
+
+
+> ## 2nd Coding Challenge
+ #### Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
+_Your tasks:_
+
+1. Print a nice output to the console, saying who has the higher BMI. The message 
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+BMI (28.3) is higher than John's (23.9)!"
+Hint: Use an if/else statement �
 GOOD LUCK � 
